@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main{
+	public static void main(String[] args) {
+		int King = 1;
+		int Queen = 1;
+		int Rook = 2;
+		int Bishop = 2;
+		int Knight = 2;
+		int Pawn = 8;
+		
+		Scanner sc = new Scanner(System.in);
+		King = King- sc.nextInt(); 
+		Queen = Queen- sc.nextInt(); 
+		Rook = Rook- sc.nextInt(); 
+		Bishop = Bishop- sc.nextInt(); 
+		Knight = Knight- sc.nextInt(); 
+		Pawn = Pawn- sc.nextInt(); 
+		System.out.print(King + " ");
+		System.out.print(Queen + " ");
+		System.out.print(Rook + " ");
+		System.out.print(Bishop + " ");
+		System.out.print(Knight + " ");
+		System.out.print(Pawn + " ");
+	}
+}
